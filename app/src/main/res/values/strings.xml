@@ -6,8 +6,34 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="baixo_peso">BAIXO PESO Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Cevadis im ampola pa arma uma pindureta.</string>
-    <string name="peso_ideal">PESO IDEAL Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Cevadis im ampola pa arma uma pindureta.</string>
-    <string name="sobrepeso">SOBREPESO Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Cevadis im ampola pa arma uma pindureta.</string>
-    <string name="obesidade"> OBESIDADE Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Cevadis im ampola pa arma uma pindureta.</string>
+    <string name="baixo_peso">BAIXO PESO - Aqui você tem dicas de como aumentar o peso para chegar no peso Ideal.</string>
+    <string name="peso_ideal">PESO IDEAL - Parabéns!! Temos algumas dicas para que você possa se manter no seu Peso Ideal.</string>
+    <string name="sobrepeso">SOBREPESO - Aqui você tem dicas de como diminuir um pouco o peso e alcançar o seu Peso Ideal.</string>
+    <string name="obesidade"> OBESIDADE - Aqui você tem dicas importantes sobre saúde, para que você possa acompanhar o seu Peso Ideal.</string>
+    <string name="text_sobrepeso">Sobrepeso - Perda de peso: Para estimular a perda de peso, evite pular refeições, faça pelo menos 6 refeições por dia, evite beliscar entre as refeições, mastigar pelo menos 30 vezes em cada garfada pode auxiliar na saciedade, aumente a ingestão de fibras nas refeições. Lembrando que a prática de atividades físicas é recomendado para todas as etapas da vida. Beba água! A água ajuda nosso metabolismo; Protege e hidrata nossas articulações e células.</string>
+    <string name="text_peso_ideal">Peso Ideal - Para se manter saudável pratique atividades físicas pelo menos 30 minutos todos os dias, a atividade física é recomendada para todas as etapas da vida. Beba água! A água ajuda nosso metabolismo; Protege e hidrata nossas articulações e células, evite o consumo de refrigerante e industrializados, dando preferência para alimentos naturais. Continue se cuidando!  </string>
+    <string name="text_obesidade">Obesidade - Perda de peso: Para estimular a perda de peso, evite pular refeições, faça pelo menos 6 refeições por dia, evite beliscar entre as refeições, mastigar pelo menos 30 vezes em cada garfada pode auxiliar na saciedade, aumente a ingestão de fibras nas refeições. Lembrando que a prática de atividades físicas é recomendado para todas as etapas da vida. Beba água! A água ajuda nosso metabolismo; Protege e hidrata nossas articulações e células.</string>
+    <string name="text_baixo_peso">Baixo peso - Faça de 5 a 6 refeições por dia.
+        \n Café da manhã, lanche, almoço, lanche, jantar e um lanche antes de dormir. O maior fracionamento permite você controlar melhor seu apetite.
+        \n Mesmo que esteja sem fome, não pule nenhuma refeição;
+    \nEvite ficar mais de 2 horas sem comer nada, pois o seu corpo não sabe quando irá se alimentar novamente, retirando a energia dos músculos e se acostumando a acumular gordura;
+    Enriqueça o leite com farinha de milho, arroz, mistura de cereais, etc. Preparar minguas ou vitaminas com aveia e frutas são ótimas opções.
+    Utilize azeite de oliva extra virgem para temperar a salada. É uma forma de acrescentar gordura saudável em sua dieta.</string>
+
+
+    <string name="tit">MAIS DICAS</string>
+    <string name="dez_passos">
+        <b>10 passos para uma alimentação saudável</b>
+\n\n<b>1</b> - Faça pelo menos 3 refeições (café-da-manhã, almoço e jantar) e 2 lanches saudáveis por dia. Não pule as refeições.
+\n\n<b>2</b> - Inclua diariamente 6 porções do grupo do cereais (arroz, milho, trigo, pães e massas), tubérculos como as batatas e raízes como a mandioca nas refeições. Dê preferência aos grãos integrais e aos alimentos na sua forma mais natural.
+\n\n<b>3</b> - Coma diariamente pelo menos 3 porções de legumes e verduras como parte das refeições e 3 porções ou mais de frutas nas sobremesas e lanches.
+\n\n<b>4</b> - Coma feijão com arroz todos os dias ou , pelo menos, 5 vezes por semana. Esse prato brasileiro é uma combinação completa de proteínas e bom para a saúde.
+\n\n<b>5</b> - Consuma diariamente 3 porções de leite e derivados e 1 porção de carnes, aves, peixes ou ovos. Retirar a gordura aparente das carnes e a pele das aves antes da preparação torna esses alimentos mais saudáveis!
+\n\n<b>6</b> - Consuma, no máximo, 1 porção por dia de óleos vegetais, azeite, manteiga ou margarina.
+\n\n<b>7</b> - Evite refrigerantes e sucos industrializados, bolos, biscoitos doces e recheados, sobremesase outras guloseimas como regra da alimentação.
+\n\n<b>8</b> - Diminua a quantidade de sal na comida e retire o saleiro da mesa.
+\n\n<b>9</b> - Beba pelo menos 2 litros (6 a 8 copos) de água por dia. Dê preferência ao consumo de água nos intervalos das refeições.
+\n\n<b>10</b> - Torne sua vida mais saudável. Pratique pelo menos 30 minutos de atividade física todos os dias e evite as bebidas alcoólicas e o fumo.
+    </string>
+
 </resources>
