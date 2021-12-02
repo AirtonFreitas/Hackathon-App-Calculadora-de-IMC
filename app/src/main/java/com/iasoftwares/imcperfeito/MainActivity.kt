@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                     binding.txvResultadoImc.visibility = TextView.INVISIBLE
                     binding.txvSeuResultado.visibility = TextView.INVISIBLE
                     binding.txvComplemento.visibility = TextView.INVISIBLE
-                },10000)
+                }, 10000)
 
             }
         }

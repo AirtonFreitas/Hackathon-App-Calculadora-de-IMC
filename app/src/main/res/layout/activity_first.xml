@@ -4,16 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/md_theme_light_inverseOnSurface"
+    android:background="@drawable/background1"
     tools:context=".MainActivity">
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="726dp"
-        android:layout_height="1068dp"
-        app:srcCompat="@drawable/pngegg"
-        tools:layout_editor_absoluteX="-158dp"
-        tools:layout_editor_absoluteY="-152dp" />
 
     <TextView
         android:id="@+id/textView2"
