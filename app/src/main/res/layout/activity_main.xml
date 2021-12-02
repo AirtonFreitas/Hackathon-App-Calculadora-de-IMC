@@ -3,14 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/md_theme_light_inverseOnSurface"
-    tools:context=".MainActivity">
+
+    android:layout_height="match_parent">
+
 
     <EditText
         android:id="@+id/editMainPeso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="351dp"
+        android:layout_height="@dimen/alt_editText"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
         android:backgroundTint="@color/azul_hack"
         android:ems="10"
         android:hint="Peso"
@@ -19,26 +21,27 @@
         android:textColorHint="@color/md_theme_light_outline"
         app:layout_constraintBottom_toTopOf="@+id/editMainAltura"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/btnMainCalcular"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="@dimen/alt_btn"
+        android:background="@color/azul_btn"
         android:text="Calcular"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/txvSeuResultado"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editMainAltura" />
 
     <EditText
         android:id="@+id/editMainAltura"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="351dp"
+        android:layout_height="@dimen/alt_editText"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
         android:backgroundTint="@color/azul_hack"
         android:ems="10"
         android:hint="Altura"
@@ -47,7 +50,6 @@
         android:textColorHint="@color/md_theme_light_outline"
         app:layout_constraintBottom_toTopOf="@+id/btnMainCalcular"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editMainPeso" />
 
@@ -60,7 +62,6 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/txvResultadoImc"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnMainCalcular" />
 
@@ -74,7 +75,6 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/txvComplemento"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txvSeuResultado" />
 
@@ -83,12 +83,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingStart="10dp"
-        android:text="@string/acima_do_peso"
+        android:text="@string/baixo_peso"
         android:textColor="@color/md_theme_light_outline"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnSaibaMais"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txvResultadoImc" />
 
@@ -99,8 +98,21 @@
         android:background="@drawable/logob"
         app:layout_constraintBottom_toTopOf="@+id/editMainPeso"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSaibaMais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/white"
+        android:text="SAIBA MAIS"
+        android:textColor="@color/azul_btn"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvComplemento" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

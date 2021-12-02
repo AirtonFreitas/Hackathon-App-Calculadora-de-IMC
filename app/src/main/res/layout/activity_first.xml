@@ -9,12 +9,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
         android:background="@color/md_theme_dark_onSecondary"
-        android:text="Calcule seu IMC Perfeito"
+        android:text="Calcule seu IMC"
         android:textAlignment="center"
-        android:textColor="@color/md_theme_dark_onBackground"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,5 +22,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

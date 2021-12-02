@@ -1,3 +1,5 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="alt_btn">48dp</dimen>
+    <dimen name="alt_editText">50dp</dimen>
 </resources>

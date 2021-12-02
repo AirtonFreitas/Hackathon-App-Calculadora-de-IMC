@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/drawable/btn_rounded.xml" value="0.362962962962963" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/drawable/btn_rounded_saiba_mais.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/drawable/btn_rounded_second.xml" value="0.362962962962963" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/drawable/btn_rounded_third.xml" value="0.362962962962963" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/layout/activity_first.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/layout/activity_ideal_weight.xml" value="0.32592592592592595" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/layout/activity_main.xml" value="0.32592592592592595" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/layout/activity_obesity.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/layout/activity_overweight.xml" value="0.32592592592592595" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/layout/activity_second.xml" value="0.16945288753799392" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/layout/activity_third.xml" value="0.2496969696969697" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/layout/activity_second.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/layout/activity_third.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/IMCperfeito/app/src/main/res/layout/activity_under_weight.xml" value="0.32592592592592595" />
       </map>
     </option>
