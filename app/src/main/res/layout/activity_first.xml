@@ -10,10 +10,10 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="46dp"
+        android:layout_height="60dp"
         android:background="@color/azul_btn"
-        android:text="Calcule seu IMC"
-        android:textAlignment="center"
+        android:gravity="center"
+        android:text="Saiba qual o seu IMC Perfeito"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:typeface="sans"
