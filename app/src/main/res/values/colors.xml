@@ -61,7 +61,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="azul_hack">#4A91D5</color>
-    <color name="azul_btn">#92B6E2</color>
+    <color name="azul_btn">#884A91D5</color>
 
 
 </resources>

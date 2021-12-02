@@ -28,7 +28,7 @@
         android:id="@+id/btnMainCalcular"
         android:layout_width="211dp"
         android:layout_height="@dimen/alt_btn"
-        android:background="@color/azul_btn"
+        android:background="@color/azul_hack"
         android:text="Calcular"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/txvSeuResultado"
