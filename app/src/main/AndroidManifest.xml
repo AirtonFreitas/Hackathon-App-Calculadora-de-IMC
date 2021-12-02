@@ -10,7 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IMCPerfeito">
         <activity
+            android:name=".IdealWeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UnderWeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OverweightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
