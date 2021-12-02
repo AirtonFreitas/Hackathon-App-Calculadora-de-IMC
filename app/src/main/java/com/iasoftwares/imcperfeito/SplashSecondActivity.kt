@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import com.iasoftwares.imcperfeito.databinding.ActivitySecondBinding
 
-class SecondActivity : AppCompatActivity() {
+class SplashSecondActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySecondBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,8 +15,8 @@ class SecondActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         Handler().postDelayed({
-            val mIntent = Intent(this, ThirdActivity::class.java)
+            val mIntent = Intent(this, SplashThirdActivity::class.java)
             startActivity(mIntent)
-        },2500)
+        },3000)
     }
 }
