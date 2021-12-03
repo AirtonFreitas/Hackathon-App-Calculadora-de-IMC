@@ -54,24 +54,24 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
             android:padding="10dp"
-            android:text="TextView"
+            android:text="@string/text_sobrepeso"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
-            tools:text="@string/text_sobrepeso" />
+            />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="TextView"
+            android:text="@string/tit"
             android:textSize="22sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4"
-            tools:text="@string/tit" />
+             />
 
         <TextView
             android:id="@+id/textView7"
