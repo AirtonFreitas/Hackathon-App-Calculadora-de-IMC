@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IMCPerfeito.NoActionBar">
         <activity
+            android:name=".TipsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ObesityActivity"
             android:exported="false" />
         <activity

@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
             var peso = binding.editMainPeso.text.toString()
             var altura = binding.editMainAltura.text.toString()
 
+
             if (peso.isEmpty()) {
                 binding.editMainPeso.error = "Campo vazio!"
                 binding.editMainPeso.requestFocus()
